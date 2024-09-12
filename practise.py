@@ -7,11 +7,8 @@ menu = {"pizza" : 3.00,
         "chips" : 1.00
 }
 
-<<<<<<< HEAD
-test = 0
-=======
+
 test2 = 0
->>>>>>> Repo
 cart = []
 total = 0
 
