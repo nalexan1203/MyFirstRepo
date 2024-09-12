@@ -7,7 +7,7 @@ menu = {"pizza" : 3.00,
         "chips" : 1.00
 }
 
-
+test2 = 0
 cart = []
 total = 0
 
