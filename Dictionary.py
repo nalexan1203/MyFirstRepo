@@ -7,13 +7,11 @@ menu = {"pizza" : 3.00,
         "chips" : 1.00
 }
 
-##############Get some changes############
-##############New Line Change#############
-<<<<<<< HEAD
-##########################
-=======
-##############One more####################
->>>>>>> 7e92cdc26773f1d7e6f4114fa4cc9c8dae8884a3
+print("------------MENU-----------")
+for key, values in menu.items():
+    print(f"{key:10}: {values:.2f}")
+print("---------------------------")
+
 cart = []
 total = 0
 
@@ -31,7 +29,6 @@ for value in cart:
     total += menu.get(value)
 
 print( )  
-print(f"{total}")
-
+print(f"Total cost: {total}")
 
 input()
