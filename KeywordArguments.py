@@ -12,7 +12,7 @@ def order_menu(**kwargs):
 
 
 total = {}
-mass = []
+mass = {}
 while True:
   
     
@@ -21,7 +21,7 @@ while True:
         break
     y = input("Enter the price: ")
     total= {x:y}
-    mass = order_menu(**total)
+    mass = order_menu(total)
 
   
 print(total)
