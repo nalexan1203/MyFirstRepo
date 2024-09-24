@@ -1,0 +1,9 @@
+{
+  "names": ["Nikos", "Eleni", "Aris", "Anna"],
+
+  "address": {
+    "city": "Thessaloniki",
+    "state": "GR",
+    "country": "Greece"
+  }
+}

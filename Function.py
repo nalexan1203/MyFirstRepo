@@ -1,0 +1,3 @@
+total = []
+
+print(help(total))
