@@ -2,7 +2,6 @@ import requests
 
 base_url = "https://jsonplaceholder.typicode.com/users"
 
-<<<<<<< HEAD
 #Response Object
 response = requests.get(base_url)
 
