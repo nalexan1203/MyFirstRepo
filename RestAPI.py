@@ -1,20 +1,22 @@
 import requests
 import json
 
-base_url = "https://jsonplaceholder.typicode.com/users"
+base = "https://jsonplaceholder.typicode.com/users"
 
 #Response Object
-response = requests.get(base_url)
+response = requests.get(base)
 
 print(type(response))
-
 
 #Attribute of the Response Object
 if response.status_code == 200: 
     datas = response.json()
     print(type(datas))
 
-print(datas[0])
+for x in datas:
+    print()
+    for key, Value in x.items():
+        print(f"Key: {key}, Value: {Value}")
 
 '''for data in datas:
     if data.get("id") == 1:
